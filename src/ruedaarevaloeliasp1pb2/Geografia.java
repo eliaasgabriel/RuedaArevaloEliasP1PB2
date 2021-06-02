@@ -6,4 +6,9 @@ public class Geografia extends Libro implements Fotocopiable {
 		super(codigo, nombre, autor);
 	}
 
+	
+	public void fotocopiar() {
+		System.out.println("Soy un libro de Geografia");
+	}
+
 }

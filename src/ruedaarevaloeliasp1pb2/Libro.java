@@ -1,6 +1,6 @@
 package ruedaarevaloeliasp1pb2;
 
-public abstract class Libro {
+public class Libro {
 	Integer codigo = 0;
 	String nombre = "";
 	String autor = "";
@@ -12,8 +12,13 @@ public abstract class Libro {
 		this.autor = autor;
 	}
 	
+	public Libro() {
+		
+	}
+
 	public Integer getCodigo() {
 		return this.codigo;
 	}
+	
 
 }
